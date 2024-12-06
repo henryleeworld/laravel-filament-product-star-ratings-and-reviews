@@ -8,7 +8,7 @@
         "php": "^8.2",
         "filament/filament": "^3.2",
         "filament/spatie-laravel-media-library-plugin": "^3.2",
-        "laravel/framework": "^11.13",
+        "laravel/framework": "^11.14",
         "laravel/tinker": "^2.10",
         "mokhosh/filament-rating": "^1.4"
     },
