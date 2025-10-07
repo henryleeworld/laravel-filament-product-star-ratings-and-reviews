@@ -27,6 +27,11 @@ class ProductFactory extends Factory
         ];
     }
 
+    /**
+     * Configure the factory.
+     *
+     * @return ProductFactory
+     */
     public function configure(): ProductFactory
     {
         return $this->afterCreating(function (Product $product) {

@@ -11,7 +11,7 @@ return [
         ],
 
         'logout' => [
-            'label' => 'Logout',
+            'label' => 'Sair',
         ],
 
         'open_database_notifications' => [
@@ -50,6 +50,14 @@ return [
 
         ],
 
+    ],
+
+    'avatar' => [
+        'alt' => 'Avatar de :name',
+    ],
+
+    'logo' => [
+        'alt' => 'Logotipo de :name',
     ],
 
 ];

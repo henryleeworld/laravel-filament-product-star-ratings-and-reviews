@@ -1,4 +1,4 @@
-# Laravel 11 Filament 產品星級評等和評論
+# Laravel 12 Filament 產品星級評等和評論
 
 Filament 產品星級評等和評論採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，這些評分和評論可協助顧客研究產品與決定消費，並吸引更多符合條件的顧客瀏覽產品頁面。
 
@@ -31,5 +31,5 @@ $ php artisan storage:link
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/0Egw0P0.gif)
+![](https://i.imgur.com/mgCemXb.gif)
 > 評論內容的整體品質越高，就越容易影響購物者的購買決策
