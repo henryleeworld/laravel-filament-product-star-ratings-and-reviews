@@ -23,11 +23,12 @@ class ListProducts extends ListRecords
             ->form([
                 Rating::make('rating')
                     ->label(__('Rating'))
-                    // ->color('warning')
+                    ->color('amber')
                     ->default(5)
                     ->required(),
                 Textarea::make('review')
-                    ->label(__('Review')),
+                    ->label(__('Review'))
+                    ->required(),
             ])
             ->action(function (array $data, array $arguments) {
                 Review::create([
